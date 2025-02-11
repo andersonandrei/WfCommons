@@ -9,6 +9,7 @@
 # (at your option) any later version.
 
 from .dask import DaskTranslator
+from .knative import KnativeTranslator
 from .nextflow import NextflowTranslator
 from .parsl import ParslTranslator
 from .pegasus import PegasusTranslator
